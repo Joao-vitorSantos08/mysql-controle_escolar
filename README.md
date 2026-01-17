@@ -33,23 +33,25 @@ O projeto inclui:
 ---
 
 
-  ## 🎨 Layout
+## 🎨 Layout / Diagrama do Banco de Dados
 
-![Mobile3]()
+### Diagrama das Tabelas
 
-## ⚙️ Funcionalidades
+![Diagrama do Banco de Dados](Thumbnail.png)
 
-- [x] Criar banco de dados e tabelas.  
-- [x] Consultas básicas com `SELECT *`.  
-- [x] Agrupamento de dados com `GROUP BY` e contagem (`COUNT`).  
-- [x] Relacionamento entre tabelas com `JOIN`.  
-- [x] Inserir registros com `INSERT`.  
-- [x] Atualizar registros com `UPDATE`.  
-- [x] Remover registros com `DELETE`.  
+ Este diagrama mostra as tabelas `cursos` e `alunos` e o relacionamento entre elas.
 
----
+### ✅ Pré-requisitos
 
-## 🚀 Como executar o projeto
+Antes de começar este projeto, você precisará ter instalado em seu computador:
+
+- Um **banco de dados**, podendo ser:
+  - **MySQL Workbench** (recomendado)
+  - **phpMyAdmin**
+  - Ou outro de sua preferência
+- Conhecimentos básicos de **SQL** (como `CREATE`, `INSERT`, `SELECT`, etc.)
+
+  ## 🚀 Como executar o projeto
 
 1. Clone o projeto:
    ```bash
@@ -68,6 +70,28 @@ O projeto inclui:
 - JOIN
 
 - INSERT, UPDATE e DELETE
+
+  
+ ### 💻 Tecnologia utilizada
+
+- **SQL / MySQL** – Criação e manipulação do banco de dados
+
+## 🛠️ Ferramentas
+ 
+- **Git** – Controle de versão  
+- **GitHub** – Hospedagem e gerenciamento do código-fonte  
+- **MySQL Workbench** – Criação e manipulação do banco de dados
+
+
+## ⚙️ Funcionalidades
+
+- [x] Criar banco de dados e tabelas.  
+- [x] Consultas básicas com `SELECT *`.  
+- [x] Agrupamento de dados com `GROUP BY` e contagem (`COUNT`).  
+- [x] Relacionamento entre tabelas com `JOIN`.  
+- [x] Inserir registros com `INSERT`.  
+- [x] Atualizar registros com `UPDATE`.  
+- [x] Remover registros com `DELETE`.  
 
  ## 💪 Como contribuir para o projeto
 
